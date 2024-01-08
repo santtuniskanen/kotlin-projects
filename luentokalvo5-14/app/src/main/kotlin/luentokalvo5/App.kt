@@ -17,7 +17,9 @@ fun main() {
     The implementation for this file is on the same level as my main application,
     meaning I don't have to import the file before calling the functio.
     */
-    firstDice()
+    // firstDice()
+    ifElse()
+    ifElseIf()
     
 }
 
