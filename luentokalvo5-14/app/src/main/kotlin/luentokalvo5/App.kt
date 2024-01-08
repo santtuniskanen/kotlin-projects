@@ -18,8 +18,13 @@ fun main() {
     meaning I don't have to import the file before calling the functio.
     */
     // firstDice()
-    ifElse()
-    ifElseIf()
+    /* ifElse()
+    ifElseIf() */
+    // sameThingWithWhen()
+    // largerRangeWhen()
+    // forLoopThing()
+    //itemInArray()
+    // doWhile()
     
 }
 
