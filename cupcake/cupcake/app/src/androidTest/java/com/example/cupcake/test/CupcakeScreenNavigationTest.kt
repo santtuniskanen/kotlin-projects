@@ -41,4 +41,8 @@ class CupcakeScreenNavigationTest {
     }
 
     @Test
+    fun cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen() {
+        val backText = composeTestRule.activity.getString(R.string.back_button)
+        composeTestRule.onNodeWithContentDescription(backText).assertDoesNotExist()
+    }
 }
